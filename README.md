@@ -41,12 +41,3 @@ This bot allows users to interact with software repository data through natural 
 2. LLM processes the query to determine intent and extract entities
 3. The appropriate functions are called to retrieve data from MongoDB
 4. Results are processed and returned to the user in natural language
-
-## Paper Implementation
-
-This project implements the architecture and use cases described in the paper "Software Engineering Bot: A Modular Pipeline for Natural Language Repository Mining". The key components are:
-
-- Conversational Interface: Implemented using OpenAI's Assistant API
-- Function-Calling Framework: Implemented in function_registry.py
-- Repository Data Access: Implemented in mongodb_connector.py
-- Natural Language Understanding & Response Generation: Handled by LLM
